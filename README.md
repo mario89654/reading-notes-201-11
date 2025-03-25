@@ -53,7 +53,7 @@ document.querySelector("#text-input").addEventListener("input", function(event) 
 });
 ```
 
-### 📩 Evento `submit` (Evitar que el formulario recargue la página)
+### Evento `submit` (Evitar que el formulario recargue la página)
 
 ```js
 document.querySelector("form").addEventListener("submit", function(event) {
@@ -76,7 +76,7 @@ function mostrarMensaje() {
 document.querySelector("button").addEventListener("click", mostrarMensaje);
 ```
 
-🚀 Aquí `mostrarMensaje` es la función de callback que se ejecutará cuando el usuario haga clic en el botón.
+ Aquí `mostrarMensaje` es la función de callback que se ejecutará cuando el usuario haga clic en el botón.
 
 ## 🔹 Ejemplo Práctico Combinando Todo
 
@@ -114,7 +114,7 @@ Crearemos un formulario que, al escribir en el campo de texto, muestre el valor 
 - **Callbacks** son funciones ejecutadas dentro de un evento.
 - **Ejemplo práctico**: Actualizar un mensaje en tiempo real y evitar la recarga del formulario.
 
-## 🚀 Conclusión
+##  Conclusión
 
 Los **event listeners** permiten una interacción dinámica en nuestras aplicaciones web. Aprovechar el **objeto event** y los **callbacks** nos ayuda a manejar eventos de manera más eficiente y flexible. 
 
